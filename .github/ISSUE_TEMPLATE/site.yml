@@ -1,0 +1,33 @@
+name: Site detection
+description: A site is a false positive, false negative, or missing
+labels: [sites]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - False positive (reported as found, account does not exist)
+        - False negative (account exists, not reported)
+        - New site
+    validations:
+      required: true
+  - type: input
+    id: site
+    attributes:
+      label: Site name or URL template
+      placeholder: https://example.com/$USERNAME
+    validations:
+      required: true
+  - type: input
+    id: username
+    attributes:
+      label: Example username
+      description: A claimed or unclaimed handle that reproduces the issue
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Status code, error text, or how a miss should be detected
