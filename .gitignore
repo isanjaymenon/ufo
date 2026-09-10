@@ -1,0 +1,24 @@
+# Binaries
+/ufo
+/ufo.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# GoReleaser
+/dist/
+
+# Local scan output
+/output/
+*.log
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
