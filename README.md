@@ -114,7 +114,7 @@ gofmt -l .
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for site-list changes and how maintainers
-cut a GitHub Release (`git tag -a v0.1.0 && git push origin v0.1.0`).
+cut a GitHub Release (`git tag -s v0.1.0 && git push origin v0.1.0`).
 
 ## License
 

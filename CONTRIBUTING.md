@@ -29,11 +29,11 @@ those. See the README for the full field list.
 
 ## Releasing
 
-Maintainers publish GitHub Releases from an annotated version tag. CI runs
+Maintainers publish GitHub Releases from a signed version tag. CI runs
 GoReleaser on tags matching `v*`:
 
 ```bash
-git tag -a v0.1.0 -m "v0.1.0"
+git tag -s v0.1.0 -m "v0.1.0"
 git push origin v0.1.0
 ```
 
