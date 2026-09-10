@@ -29,6 +29,7 @@ archives:
     files:
       - LICENSE
       - README.md
+      - CHANGELOG.md
       - urls.json
     format_overrides:
       - goos: windows

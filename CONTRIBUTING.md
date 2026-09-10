@@ -37,6 +37,9 @@ git tag -s v0.1.0 -m "v0.1.0"
 git push origin v0.1.0
 ```
 
+Before tagging, move the `[Unreleased]` section in `CHANGELOG.md` to a dated
+version heading (for example `## [0.1.0] - 2026-09-10`).
+
 Use [semantic versioning](https://semver.org/). Archives include `ufo`,
-`urls.json`, `LICENSE`, and `README.md` for linux, windows, and darwin
-(amd64 and arm64).
+`urls.json`, `LICENSE`, `README.md`, and `CHANGELOG.md` for linux, windows,
+and darwin (amd64 and arm64).

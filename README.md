@@ -113,7 +113,8 @@ go vet ./...
 gofmt -l .
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for site-list changes and how maintainers
+See [CHANGELOG.md](CHANGELOG.md) for notable changes, and
+[CONTRIBUTING.md](CONTRIBUTING.md) for site-list edits and how maintainers
 cut a GitHub Release (`git tag -s v0.1.0 && git push origin v0.1.0`).
 
 ## License
